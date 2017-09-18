@@ -19,7 +19,7 @@ public class Kit extends JavaPlugin {
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		if (!(sender instanceof Player)) {
-			sender.sendMessage("Come on! Your a Console! How can you equip a kit????");
+			sender.sendMessage("Come on! You're a Console! How can you equip a kit????");
 			return true;
 		}
 
